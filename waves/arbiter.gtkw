@@ -1,0 +1,35 @@
+[dumpfile] "build/arbiter.vcd"
+[timestart] 0
+[size] 1284 640
+[pos] 40 40
+*-15.503852 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_expanded] 0
+[sst_width] 1
+[signals_width] 200
+[sst_vpaned_height] 150
+@28
+tb_rr_arbiter.clk
+tb_rr_arbiter.rst_n
+@200
+-Inputs
+@22
+[color] 3
+tb_rr_arbiter.req[3:0]
+@200
+-Grant lines
+@28
+[color] 4
+(3)tb_rr_arbiter.grant[3:0]
+[color] 4
+(2)tb_rr_arbiter.grant[3:0]
+[color] 4
+(1)tb_rr_arbiter.grant[3:0]
+[color] 4
+(0)tb_rr_arbiter.grant[3:0]
+@200
+-Pointer
+@24
+[color] 2
+tb_rr_arbiter.dut.last[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

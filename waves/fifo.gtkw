@@ -1,0 +1,44 @@
+[dumpfile] "build/fifo.vcd"
+[timestart] 0
+[size] 1284 640
+[pos] 40 40
+*-16.519445 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_expanded] 0
+[sst_width] 1
+[signals_width] 200
+[sst_vpaned_height] 150
+@28
+tb_sync_fifo.clk
+tb_sync_fifo.rst_n
+@200
+-Write side
+@28
+[color] 3
+tb_sync_fifo.wr_en
+@22
+[color] 3
+tb_sync_fifo.wr_data[7:0]
+@200
+-Read side
+@28
+[color] 5
+tb_sync_fifo.rd_en
+@22
+[color] 5
+tb_sync_fifo.rd_data[7:0]
+@200
+-Status
+@24
+[color] 4
+tb_sync_fifo.count[4:0]
+@28
+[color] 4
+tb_sync_fifo.full
+[color] 4
+tb_sync_fifo.empty
+[color] 1
+tb_sync_fifo.overflow
+[color] 1
+tb_sync_fifo.underflow
+[pattern_trace] 1
+[pattern_trace] 0
